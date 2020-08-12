@@ -1,0 +1,11 @@
+Package: bokner
+Type: Package
+Title: Help Functions For Bookdown
+Version: 0.0.0.9001
+Author: Henrik Renlund
+Maintainer: Henrik Renlund <henrik.renlund@ucr.uu.se>
+Description: Helper functions possibly useful when making documents with the bookdown package.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.0
