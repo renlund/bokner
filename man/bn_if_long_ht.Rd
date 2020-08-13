@@ -11,10 +11,10 @@ bn_if_long_ht(h)
 }
 \description{
 \code{huxtable} allows the setting of the (latex) tabular environment to be
-    specified. Proding 'longtable' doesn't work since this will be wrapped
+    specified. Providing 'longtable' doesn't work since this will be wrapped
     in a 'table' environment. However, since the tabular environment created
     is fine, it can be extracted. As this has no effect on html and docx
-    output, this wrapper will do nothing is the format is missing, html, or
+    output, this wrapper will do nothing if the format is missing, html, or
     docx, or if the attribute \code{tabular_environment} is anything other
     than 'longtable'. (In these cases the input will simple be returned
     as-is.) If output format is latex AND the tabular environment is
