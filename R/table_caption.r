@@ -45,7 +45,7 @@ bn_extract_label_from_caption <- function(caption){
 bn_cap <- function(caption, label = NULL){
     get_lab <- if(is.null(label)) bn_clab() else label
     lab <- if(!is.null(get_lab)) get_lab else "noLabel"
-    paste0("Table: (\\#tab:", lab, ") ", caption)
+    paste0("(\\#tab:", lab, ") ", caption)
 }
 ##' @describeIn bn_cap alias for \code{bn_cap}
 ##' @export
